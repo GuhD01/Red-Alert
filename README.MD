@@ -15,7 +15,7 @@
 
 # 📖 Red Alert <a name="about-project"></a>
 
-an endless platformer game where the player can control the character to navigate through the levels, avoiding obstacles. It is an endless-level type of game, so there wouldn’t be an ending to this game, as the player’s goal is to get the maximum distance possible. 
+An endless platformer game where the player can control the character to navigate through the levels, avoiding obstacles. It is an endless-level type of game, so there wouldn’t be an ending to this game, as the player’s goal is to get the maximum distance possible. 
 
 
 ## 🚀 Video Demo <a name="live-demo"></a>
