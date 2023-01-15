@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="43" height="10" tilewidth="128" tileheight="128" infinite="0" nextlayerid="16" nextobjectid="173">
+ <tileset firstgid="1" source="Tileset/Floor.tsx"/>
+ <tileset firstgid="27" source="Tileset/Enemies.tsx"/>
+ <tileset firstgid="30" source="Tileset/Pickups.tsx"/>
+ <tileset firstgid="32" source="Tileset/Environment.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="43" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,11,18,23,0,0,0,0,0,0,0,0,0,0,21,16,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,21,23,0,0,0,0,11,12,1,5,0,0,0,0,0,0,0,0,0,0,3,1,14,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,21,23,0,0,3,5,0,0,0,11,12,1,1,5,0,0,0,0,0,0,0,0,0,0,3,1,3,14,13,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,4,6,8,10,4,6,8,9,15,12,1,1,1,5,0,0,0,0,0,0,0,0,0,0,4,6,4,1,14,17,16,22,22,22,23,0,0,0,21,22,22,22
+</data>
+ </layer>
+ <objectgroup id="5" name="Water">
+  <object id="110" name="water" gid="27" x="1920" y="1344" width="128" height="128"/>
+  <object id="111" name="water" gid="27" x="2048" y="1344" width="128" height="128"/>
+  <object id="112" name="water" gid="27" x="2176" y="1344" width="128" height="128"/>
+  <object id="113" name="water" gid="27" x="2304" y="1344" width="128" height="128"/>
+  <object id="114" name="water" gid="27" x="2432" y="1344" width="128" height="128"/>
+  <object id="115" name="water" gid="27" x="2560" y="1344" width="128" height="128"/>
+  <object id="116" name="water" gid="27" x="2688" y="1344" width="128" height="128"/>
+  <object id="117" name="water" gid="27" x="2816" y="1344" width="128" height="128"/>
+  <object id="118" name="water" gid="27" x="2944" y="1344" width="128" height="128"/>
+  <object id="119" name="water" gid="27" x="3072" y="1344" width="128" height="128"/>
+  <object id="155" name="water" gid="27" x="4608" y="1337.6" width="128" height="128"/>
+  <object id="156" name="water" gid="27" x="4736" y="1337.6" width="128" height="128"/>
+  <object id="158" name="water" gid="27" x="4864" y="1337.6" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="6" name="Environment"/>
+ <objectgroup id="2" name="Colliders">
+  <object id="123" name="collider" x="0" y="1177.6" width="128" height="102.4"/>
+  <object id="124" name="collider" x="128" y="1049.6" width="256" height="230.4"/>
+  <object id="125" name="collider" x="384" y="1177.6" width="256" height="102.4"/>
+  <object id="126" name="collider" x="640" y="921.6" width="256" height="358.4"/>
+  <object id="127" name="collider" x="896" y="1177.6" width="384" height="102.4"/>
+  <object id="128" name="collider" x="1664" y="793.6" width="256" height="486.4"/>
+  <object id="130" name="End" x="5376" y="0" width="128" height="1280"/>
+  <object id="136" name="collider" x="2176" y="665.6" width="128" height="102.4"/>
+  <object id="137" name="collider" x="2432" y="537.6" width="256" height="102.4"/>
+  <object id="138" name="collider" x="2816" y="665.6" width="128" height="102.4"/>
+  <object id="139" name="collider" x="3200" y="793.6" width="256" height="486.4"/>
+  <object id="142" name="colliderslopright" x="1280" y="1177.6">
+   <polygon points="0,0 384,0 384,-384"/>
+  </object>
+  <object id="144" name="colliderslopleft" x="3456" y="793.6">
+   <polyline points="0,0 384,384 0,384 0,0"/>
+  </object>
+  <object id="159" name="collider" x="3840" y="1177.6" width="768" height="102.4"/>
+  <object id="160" name="collider" x="4992" y="1177.6" width="512" height="102.4"/>
+ </objectgroup>
+ <group id="12" name="Saws">
+  <objectgroup id="14" name="Moving Saws 1">
+   <object id="146" name="1" x="121.6" y="659.2">
+    <point/>
+   </object>
+   <object id="147" name="2" x="121.6" y="947.2">
+    <point/>
+   </object>
+   <object id="153" name="3" x="377.6" y="947.2">
+    <point/>
+   </object>
+   <object id="154" name="4" x="377.6" y="659.2">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="15" name="Moving Saws 2">
+   <object id="161" name="1" x="4800" y="1100.8">
+    <point/>
+   </object>
+   <object id="162" name="2" x="4800" y="1017.6">
+    <point/>
+   </object>
+   <object id="164" name="3" x="4800" y="940.8">
+    <point/>
+   </object>
+   <object id="166" name="4" x="4800" y="1017.6">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="10" name="Saws">
+   <object id="131" name="Saw" gid="29" x="576" y="992" width="98" height="98"/>
+   <object id="132" name="Saw" gid="29" x="864" y="992" width="98" height="98"/>
+   <object id="135" name="Saw" gid="29" x="3154" y="865.667" width="98" height="98"/>
+   <object id="150" name="Saw" gid="29" x="1875" y="866.5" width="98" height="98"/>
+  </objectgroup>
+ </group>
+ <objectgroup id="7" name="Tiles"/>
+ <objectgroup id="3" name="Spikes">
+  <object id="133" name="Spike" gid="28" x="2525" y="540" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="4" name="Pickups">
+  <object id="167" name="coin" gid="31" x="224" y="819.2" width="64" height="64"/>
+  <object id="168" name="coin" gid="31" x="2060.8" y="531.2" width="64" height="64"/>
+  <object id="169" name="coin" gid="31" x="2528" y="294.4" width="64" height="64"/>
+  <object id="170" name="coin" gid="31" x="3008" y="531.2" width="64" height="64"/>
+  <object id="171" name="coin" gid="31" x="4768" y="928" width="64" height="64"/>
+  <object id="172" name="coin" gid="31" x="736" y="665.6" width="64" height="64"/>
+ </objectgroup>
+</map>

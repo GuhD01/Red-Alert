@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="95" height="10" tilewidth="128" tileheight="128" infinite="0" nextlayerid="36" nextobjectid="426">
+ <tileset firstgid="1" source="Tileset/Floor.tsx"/>
+ <tileset firstgid="27" source="Tileset/Enemies.tsx"/>
+ <tileset firstgid="30" source="Tileset/Pickups.tsx"/>
+ <tileset firstgid="32" source="Tileset/Environment.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="95" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,21,22,22,22,22,22,22,22,22,23,0,0,0,0,21,22,22,22,22,22,22,22,22,22,0,21,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,0,0,21,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,21,22,22,22,22,22,22
+</data>
+ </layer>
+ <objectgroup id="5" name="Water">
+  <object id="303" name="water" gid="27" x="10752" y="1350.4" width="128" height="128"/>
+  <object id="304" name="water" gid="27" x="10880" y="1350.4" width="128" height="128"/>
+  <object id="305" name="water" gid="27" x="11008" y="1350.4" width="128" height="128"/>
+  <object id="306" name="water" gid="27" x="11136" y="1350.4" width="128" height="128"/>
+  <object id="307" name="water" gid="27" x="4224" y="1350.4" width="128" height="128"/>
+  <object id="308" name="water" gid="27" x="4352" y="1350.4" width="128" height="128"/>
+  <object id="309" name="water" gid="27" x="4480" y="1350.4" width="128" height="128"/>
+  <object id="311" name="water" gid="27" x="4608" y="1350.4" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="6" name="Environment">
+  <object id="421" gid="45" x="11379.2" y="1164.8" width="240" height="256"/>
+  <object id="422" gid="45" x="10323.2" y="1164.8" width="240" height="256"/>
+  <object id="423" gid="44" x="8998.4" y="1158.4" width="37" height="33"/>
+  <object id="424" gid="37" x="6374.4" y="1164.8" width="40" height="33"/>
+  <object id="425" gid="39" x="5132.8" y="1164.8" width="37" height="29"/>
+ </objectgroup>
+ <objectgroup id="2" name="Colliders">
+  <object id="312" name="collider" x="0" y="1177.6" width="2816" height="102.4"/>
+  <object id="313" name="collider" x="2816" y="1004.8" width="128" height="275.2"/>
+  <object id="315" name="collider" x="2944" y="1177.6" width="1280" height="102.4"/>
+  <object id="316" name="collider" x="4736" y="1177.6" width="1280" height="102.4"/>
+  <object id="317" name="collider" x="6144" y="1177.6" width="2176" height="102.4"/>
+  <object id="318" name="collider" x="8576" y="1177.6" width="2176" height="102.4"/>
+  <object id="319" name="collider" x="11264" y="1177.6" width="896" height="102.4"/>
+  <object id="320" name="collider" x="8320" y="972.8" width="256" height="307.2"/>
+  <object id="321" name="collider" x="6016" y="992" width="128" height="288"/>
+  <object id="334" name="End" x="12025.6" y="0" width="128" height="1203.2"/>
+  <object id="393" name="collider" x="6739.2" y="761.6" width="128" height="102.4"/>
+  <object id="394" name="collider" x="7238.4" y="761.6" width="128" height="102.4"/>
+  <object id="396" name="collider" x="7781.6" y="755.2" width="128" height="102.4"/>
+ </objectgroup>
+ <group id="12" name="Saws">
+  <objectgroup id="10" name="Saws">
+   <object id="381" name="Saw" gid="29" x="5953.8" y="1075.2" width="98" height="98"/>
+   <object id="383" name="Saw" gid="29" x="6108.2" y="1075.2" width="98" height="98"/>
+   <object id="390" name="Saw" gid="29" x="6752" y="927.6" width="98" height="98"/>
+   <object id="391" name="Saw" gid="29" x="7257.6" y="928" width="98" height="98"/>
+   <object id="392" name="Saw" gid="29" x="7794.4" y="921.6" width="98" height="98"/>
+  </objectgroup>
+  <objectgroup id="17" name="Moving Saws 1">
+   <object id="328" x="623.6" y="1100">
+    <point/>
+   </object>
+   <object id="329" x="819.2" y="955.6">
+    <point/>
+   </object>
+   <object id="330" x="1015.8" y="1100">
+    <point/>
+   </object>
+   <object id="333" x="819.2" y="955.6">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="26" name="Moving Saws 4">
+   <object id="361" x="1231.6" y="1100">
+    <point/>
+   </object>
+   <object id="362" x="1427.2" y="955.6">
+    <point/>
+   </object>
+   <object id="363" x="1623.8" y="1100">
+    <point/>
+   </object>
+   <object id="364" x="1427.2" y="955.6">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="24" name="Moving Saws 2" visible="0">
+   <object id="349" x="1016.8" y="1100">
+    <point/>
+   </object>
+   <object id="348" x="820.2" y="955.6">
+    <point/>
+   </object>
+   <object id="347" x="624.6" y="1100">
+    <point/>
+   </object>
+   <object id="350" x="820.2" y="955.6">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="25" name="Moving Saws 3">
+   <object id="357" x="1623.8" y="1100">
+    <point/>
+   </object>
+   <object id="358" x="1427.2" y="955.6">
+    <point/>
+   </object>
+   <object id="359" x="1231.6" y="1100">
+    <point/>
+   </object>
+   <object id="360" x="1427.2" y="955.6">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="27" name="Moving Saws 5">
+   <object id="369" x="2739.2" y="844.8">
+    <point/>
+   </object>
+   <object id="370" x="2732.8" y="1094.4">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="28" name="Moving Saws 6">
+   <object id="371" x="3040" y="652.8">
+    <point/>
+   </object>
+   <object id="372" x="3040" y="1036.8">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="29" name="Moving Saws 7">
+   <object id="384" name="2" x="4908.8" y="966.4">
+    <point/>
+   </object>
+   <object id="385" name="1" x="5868.8" y="966.4">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="30" name="Moving Saws 8">
+   <object id="397" x="6400" y="1068.8">
+    <point/>
+   </object>
+   <object id="398" x="6790.4" y="1062.4">
+    <point/>
+   </object>
+   <object id="399" x="7104" y="1056">
+    <point/>
+   </object>
+   <object id="400" x="6790.4" y="1062.4">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="32" name="Moving Saws 10">
+   <object id="405" x="7462.4" y="1056">
+    <point/>
+   </object>
+   <object id="406" x="7769.6" y="1056">
+    <point/>
+   </object>
+   <object id="407" x="8057.6" y="1049.6">
+    <point/>
+   </object>
+   <object id="408" x="7769.6" y="1056">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="33" name="Moving Saws11">
+   <object id="409" x="9177.6" y="1113.6">
+    <point/>
+   </object>
+   <object id="410" x="9184" y="838.4">
+    <point/>
+   </object>
+   <object id="411" x="9190.4" y="524.8">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="34" name="Moving Saws12">
+   <object id="416" x="9303.4" y="236.8">
+    <point/>
+   </object>
+   <object id="413" x="9297" y="1113.6">
+    <point/>
+   </object>
+   <object id="414" x="9301.6" y="691.2">
+    <point/>
+   </object>
+  </objectgroup>
+  <objectgroup id="35" name="Moving Saws 13">
+   <object id="417" x="9299.2" y="1113.6">
+    <point/>
+   </object>
+   <object id="419" x="9728" y="1107.2">
+    <point/>
+   </object>
+   <object id="420" x="10156.8" y="1107.2">
+    <point/>
+   </object>
+  </objectgroup>
+ </group>
+ <objectgroup id="7" name="Tiles">
+  <object id="291" gid="24" x="2816" y="1107.2" width="128" height="128"/>
+  <object id="292" gid="3" x="2816" y="1235.2" width="128" height="128"/>
+  <object id="293" gid="3" x="2816" y="1363.2" width="128" height="128"/>
+  <object id="294" gid="24" x="6016" y="1094.4" width="128" height="128"/>
+  <object id="295" gid="3" x="6016" y="1222.4" width="128" height="128"/>
+  <object id="296" gid="3" x="6016" y="1350.4" width="128" height="128"/>
+  <object id="297" gid="21" x="8320" y="1075.2" width="128" height="128"/>
+  <object id="298" gid="23" x="8448" y="1075.2" width="128" height="128"/>
+  <object id="299" gid="3" x="8320" y="1203.2" width="128" height="128"/>
+  <object id="300" gid="3" x="8320" y="1331.2" width="128" height="128"/>
+  <object id="301" gid="5" x="8448" y="1203.2" width="128" height="128"/>
+  <object id="302" gid="5" x="8448" y="1331.2" width="128" height="128"/>
+  <object id="386" gid="7" x="6739.2" y="864" width="128" height="128"/>
+  <object id="388" gid="7" x="7781.6" y="857.6" width="128" height="128"/>
+  <object id="389" gid="7" x="7238.4" y="864" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="3" name="Spikes">
+  <object id="373" name="Spike" gid="28" x="4051.2" y="1177.6" width="70" height="70"/>
+  <object id="374" name="Spike" gid="28" x="3846.4" y="1177.6" width="70" height="70"/>
+  <object id="375" name="Spike" gid="28" x="3660.8" y="1177.6" width="70" height="70"/>
+  <object id="376" name="Spike" gid="28" x="3590.4" y="1177.6" width="70" height="70"/>
+  <object id="377" name="Spike" gid="28" x="3520" y="1177.6" width="70" height="70"/>
+  <object id="378" name="Spike" gid="28" x="2963.2" y="1177.6" width="70" height="70"/>
+  <object id="379" name="Spike" gid="28" x="3033.6" y="1177.6" width="70" height="70"/>
+  <object id="380" name="Spike" gid="28" x="3104" y="1177.6" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="4" name="Pickups">
+  <object id="322" name="coin" gid="31" x="2854.4" y="825.6" width="64" height="64"/>
+  <object id="323" name="coin" gid="31" x="4473.6" y="1011.2" width="64" height="64"/>
+  <object id="324" name="coin" gid="31" x="6054.4" y="864" width="64" height="64"/>
+  <object id="325" name="coin" gid="31" x="8416" y="761.6" width="64" height="64"/>
+  <object id="326" name="coin" gid="31" x="10976" y="979.2" width="64" height="64"/>
+  <object id="351" name="coin" gid="31" x="793.6" y="1069.4" width="64" height="64"/>
+  <object id="352" name="coin" gid="31" x="1094.4" y="1116.4" width="64" height="64"/>
+  <object id="355" name="coin" gid="31" x="793.6" y="1004.8" width="64" height="64"/>
+  <object id="365" name="coin" gid="31" x="1401.6" y="1075.2" width="64" height="64"/>
+  <object id="366" name="coin" gid="31" x="1401.6" y="1011.2" width="64" height="64"/>
+  <object id="367" name="coin" gid="31" x="1401.6" y="947.2" width="64" height="64"/>
+ </objectgroup>
+</map>

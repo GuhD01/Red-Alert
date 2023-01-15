@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="70" height="10" tilewidth="128" tileheight="128" infinite="0" nextlayerid="11" nextobjectid="149">
+ <tileset firstgid="1" source="Tileset/Floor.tsx"/>
+ <tileset firstgid="27" source="Tileset/Enemies.tsx"/>
+ <tileset firstgid="30" source="Tileset/Pickups.tsx"/>
+ <tileset firstgid="32" source="Tileset/Environment.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="70" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,4,8,9,9,9,10,0,8,9,9,9,9,9,9,9,10,4,8,9,9,9,9,9,9,9,9,9,10,0,8,9,9,9,9,9,9,9,9,9,9,9,9,0,8,9,9,9,9,9,9,9,9
+</data>
+ </layer>
+ <objectgroup id="6" name="Environment">
+  <object id="120" gid="46" x="8217.6" y="1164.8" width="220" height="256"/>
+  <object id="121" gid="46" x="5248" y="1164.8" width="220" height="256"/>
+  <object id="122" gid="45" x="4838.4" y="1164.8" width="240" height="256"/>
+  <object id="123" gid="45" x="3276.8" y="1164.8" width="240" height="256"/>
+  <object id="124" gid="45" x="422.4" y="1164.8" width="240" height="256"/>
+  <object id="125" gid="46" x="1369.6" y="1164.8" width="220" height="256"/>
+ </objectgroup>
+ <objectgroup id="2" name="Colliders">
+  <object id="131" name="collider" x="0" y="1177.6" width="8960" height="102.4"/>
+  <object id="132" name="collider" x="7680" y="1011.2" width="128" height="166.4"/>
+  <object id="133" name="collider" x="5888" y="985.6" width="128" height="192"/>
+  <object id="134" name="collider" x="4352" y="1049.6" width="128" height="128"/>
+  <object id="136" name="collider" x="3072" y="1113.6" width="128" height="64"/>
+  <object id="138" name="collider" x="2304" y="1049.6" width="128" height="128"/>
+  <object id="139" name="End" x="8832" y="0" width="128" height="1177.6"/>
+ </objectgroup>
+ <objectgroup id="10" name="Saws">
+  <object id="143" name="Saw" gid="29" x="5837.8" y="1100.8" width="98" height="98"/>
+  <object id="144" name="Saw" gid="29" x="5965.8" y="1100.8" width="98" height="98"/>
+  <object id="147" name="Saw" gid="29" x="7629.8" y="1126.4" width="98" height="98"/>
+  <object id="148" name="Saw" gid="29" x="7757.8" y="1126.4" width="98" height="98"/>
+ </objectgroup>
+ <objectgroup id="7" name="Tiles">
+  <object id="98" gid="24" x="3072" y="1216" width="128" height="128"/>
+  <object id="99" gid="3" x="3072" y="1344" width="128" height="128"/>
+  <object id="100" gid="4" x="5888" y="1216" width="128" height="128"/>
+  <object id="101" gid="24" x="5888" y="1088" width="128" height="128"/>
+  <object id="102" gid="3" x="5888" y="1216" width="128" height="128"/>
+  <object id="103" gid="4" x="5888" y="1344" width="128" height="128"/>
+  <object id="105" gid="3" x="7680" y="1241.6" width="128" height="128"/>
+  <object id="106" gid="24" x="7680" y="1113.6" width="128" height="128"/>
+  <object id="107" gid="4" x="7680" y="1369.6" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="3" name="Spikes">
+  <object id="111" name="Spike" gid="28" x="2332.25" y="1052" width="70" height="70"/>
+  <object id="112" name="Spike" gid="28" x="3098.67" y="1115.67" width="70" height="70"/>
+  <object id="113" name="Spike" gid="28" x="4379.5" y="1051" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="4" name="Pickups">
+  <object id="126" name="coin" gid="31" x="4382" y="910" width="64" height="64"/>
+  <object id="127" name="coin" gid="31" x="3101.33" y="962.303" width="64" height="64"/>
+  <object id="128" name="coin" gid="31" x="2334.67" y="917.333" width="64" height="64"/>
+  <object id="129" name="coin" gid="31" x="5916" y="868" width="64" height="64"/>
+  <object id="130" name="coin" gid="31" x="7716" y="902.667" width="64" height="64"/>
+ </objectgroup>
+</map>

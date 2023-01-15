@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="17" height="10" tilewidth="128" tileheight="128" infinite="0" nextlayerid="9" nextobjectid="82">
+ <tileset firstgid="1" source="Tileset/Floor.tsx"/>
+ <tileset firstgid="27" source="Tileset/Environment.tsx"/>
+ <tileset firstgid="42" source="Tileset/Pickups.tsx"/>
+ <tileset firstgid="44" source="Tileset/Enemies.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="17" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+21,22,22,22,23,0,0,0,0,0,0,0,0,0,0,0,0,
+3,1,1,1,5,21,23,0,0,0,0,0,0,0,0,0,0,
+4,2,2,2,6,4,6,0,0,0,8,9,9,9,9,9,9
+</data>
+ </layer>
+ <objectgroup id="2" name="Colliders">
+  <object id="27" name="spawn" x="358.4" y="742.4">
+   <point/>
+  </object>
+  <object id="28" name="goal" x="3993.6" y="2534.4">
+   <point/>
+  </object>
+  <object id="50" name="collider" x="0" y="921.6" width="640" height="358.4"/>
+  <object id="51" name="collider" x="640" y="1049.6" width="256" height="230.4"/>
+  <object id="52" name="collider" x="1280" y="1177.6" width="896" height="102.4"/>
+  <object id="79" name="collider" x="-51.2" y="102.4" width="64" height="1177.6"/>
+  <object id="81" name="End" x="2048" y="0" width="128" height="1177.6"/>
+ </objectgroup>
+ <objectgroup id="5" name="Environment">
+  <object id="54" gid="41" x="38.4" y="908.8" width="220" height="256"/>
+  <object id="55" gid="40" x="1446.4" y="1164.8" width="240" height="256"/>
+  <object id="73" gid="39" x="524.8" y="908.8" width="37" height="33"/>
+  <object id="75" gid="34" x="844.8" y="1036.8" width="37" height="29"/>
+  <object id="76" gid="29" x="1792" y="1177.6" width="85" height="57"/>
+  <object id="77" gid="31" x="1292.8" y="1164.8" width="29" height="23"/>
+  <object id="78" gid="37" x="1331.2" y="1164.8" width="33" height="26"/>
+ </objectgroup>
+ <objectgroup id="7" name="Enemies">
+  <object id="62" name="water" gid="44" x="1152" y="1318.4" width="128" height="128"/>
+  <object id="63" name="water" gid="44" x="1024" y="1318.4" width="128" height="128"/>
+  <object id="64" name="water" gid="44" x="896" y="1318.4" width="128" height="128"/>
+  <object id="80" name="water_collider" x="896" y="1280" width="384" height="38.4"/>
+ </objectgroup>
+ <objectgroup id="6" name="Pickups">
+  <object id="60" name="coin" gid="43" x="550.4" y="857.6" width="64" height="64"/>
+  <object id="61" name="coin" gid="43" x="1062.4" y="870.4" width="64" height="64"/>
+ </objectgroup>
+</map>

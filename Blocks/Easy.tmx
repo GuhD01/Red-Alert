@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="128" tileheight="128" infinite="0" nextlayerid="5" nextobjectid="26">
+ <tileset firstgid="1" source="Tileset/Floor.tsx"/>
+ <tileset firstgid="27" source="Tileset/Enemies.tsx"/>
+ <tileset firstgid="30" source="Tileset/Pickups.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,24,0,0,0,24,0,
+10,4,8,9,9,4,9
+</data>
+ </layer>
+ <objectgroup id="3" name="Spikes">
+  <object id="13" name="Spike" gid="28" x="258.8" y="1177.6" width="70" height="70"/>
+  <object id="14" name="Spike" gid="28" x="335.6" y="1177.6" width="70" height="70"/>
+  <object id="15" name="Spike" gid="28" x="412.4" y="1177.6" width="70" height="70"/>
+  <object id="16" name="Spike" gid="28" x="489.2" y="1177.6" width="70" height="70"/>
+  <object id="17" name="Spike" gid="28" x="566" y="1177.6" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="4" name="Pickups">
+  <object id="25" name="coin" gid="31" x="422.4" y="844.8" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="2" name="Colliders">
+  <object id="19" name="End" x="772.6" y="6.6" width="121.6" height="1273.6"/>
+  <object id="20" name="collider" x="128.4" y="1049.6" width="128" height="230.4"/>
+  <object id="21" name="collider" x="256.4" y="1171.2" width="384" height="108.8"/>
+  <object id="22" name="collider" x="640.4" y="1049.6" width="128" height="230.4"/>
+  <object id="23" name="collider" x="0" y="1177.6" width="128" height="102.4"/>
+  <object id="24" name="collider" x="768" y="1177.6" width="128" height="102.4"/>
+ </objectgroup>
+</map>

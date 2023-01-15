@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="128" tileheight="128" infinite="0" nextlayerid="5" nextobjectid="24">
+ <tileset firstgid="1" source="Tileset/Floor.tsx"/>
+ <tileset firstgid="27" source="Tileset/Enemies.tsx"/>
+ <tileset firstgid="30" source="Tileset/Pickups.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="15" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,
+0,0,0,0,24,0,0,3,0,0,24,0,0,0,0,
+0,24,0,0,3,0,0,3,0,0,3,0,0,24,0,
+10,4,8,10,3,8,10,3,8,10,3,8,10,3,7
+</data>
+ </layer>
+ <objectgroup id="2" name="Colliders">
+  <object id="1" name="collider" x="0" y="1177.6" width="1920" height="102.4"/>
+  <object id="2" name="End" x="1792" y="12.8" width="128" height="1267.2"/>
+  <object id="15" name="collider" x="128" y="1049.6" width="128" height="128"/>
+  <object id="16" name="collider" x="512" y="921.6" width="128" height="256"/>
+  <object id="17" name="collider" x="896" y="793.6" width="128" height="384"/>
+  <object id="18" name="collider" x="1280" y="921.6" width="128" height="256"/>
+  <object id="19" name="collider" x="1664" y="1049.6" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="3" name="Spikes">
+  <object id="3" name="Spike" gid="28" x="268.8" y="1177.6" width="70" height="70"/>
+  <object id="4" name="Spike" gid="28" x="345.6" y="1177.6" width="70" height="70"/>
+  <object id="5" name="Spike" gid="28" x="422.4" y="1177.6" width="70" height="70"/>
+  <object id="6" name="Spike" gid="28" x="652.8" y="1177.6" width="70" height="70"/>
+  <object id="7" name="Spike" gid="28" x="729.6" y="1177.6" width="70" height="70"/>
+  <object id="8" name="Spike" gid="28" x="806.4" y="1177.6" width="70" height="70"/>
+  <object id="9" name="Spike" gid="28" x="1036.8" y="1177.6" width="70" height="70"/>
+  <object id="10" name="Spike" gid="28" x="1113.6" y="1177.6" width="70" height="70"/>
+  <object id="11" name="Spike" gid="28" x="1190.4" y="1177.6" width="70" height="70"/>
+  <object id="12" name="Spike" gid="28" x="1420.8" y="1177.6" width="70" height="70"/>
+  <object id="13" name="Spike" gid="28" x="1497.6" y="1177.6" width="70" height="70"/>
+  <object id="14" name="Spike" gid="28" x="1574.4" y="1177.6" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="4" name="Pickups">
+  <object id="20" name="coin" gid="31" x="345.6" y="819.2" width="64" height="64"/>
+  <object id="21" name="coin" gid="31" x="704" y="652.8" width="64" height="64"/>
+  <object id="22" name="coin" gid="31" x="1152" y="652.8" width="64" height="64"/>
+  <object id="23" name="coin" gid="31" x="1510.4" y="806.4" width="64" height="64"/>
+ </objectgroup>
+</map>
