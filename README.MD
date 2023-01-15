@@ -26,7 +26,7 @@ an endless platformer game where the player can control the character to navigat
 
 
 ## 💻 Install <a name="Install"></a>
-- [Click here]()
+- [Click here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/GuhD01/Red-Alert)
 
 to run the game please download pygame and pytmx libraries in cmd by using this command:
 <img src="./Resources/readme/modul.png">
