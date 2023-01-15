@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <img src="./Resources/readme/reds.png" alt="logo" width="300"  height="auto" />
+  <img src="./Resources/readme/Reds.png" alt="logo" width="300"  height="auto" />
   <br/>
 
   <h3><b>Red Alert</b></h3>
